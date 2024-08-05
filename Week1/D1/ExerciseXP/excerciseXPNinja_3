@@ -1,0 +1,28 @@
+Predict the output of the following code snippets
+#True
+    >>> 3 <= 3 < 9
+
+#True
+    >>> 3 == 3 == 3
+
+#False
+    >>> bool(0)
+
+#False
+    >>> bool(5 == "5")
+
+#True
+    >>> bool(4 == 4) == bool("4" == "4")
+
+#False
+    >>> bool(bool(None))
+
+
+    x = (1 == True) #True
+    y = (1 == False) #False
+    a = True + 4 #True
+    b = False + 10 #False
+    print("x is", x) #True
+    print("y is", y) #False
+    print("a:", a) #5
+    print("b:", b) #10
