@@ -12,3 +12,7 @@ for i in range(len(user_string)):
 
 # Print the resulting string
 print("Resulting string:", result_string)
+
+
+
+
