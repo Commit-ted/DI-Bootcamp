@@ -26,14 +26,14 @@ dog2 = Dog("Bella", 3, 15)
 dog3 = Dog("Max", 7, 25)
 
 
-print(dog1.bark())
-print(dog2.bark())
-print(dog3.bark())
+# print(dog1.bark())
+# print(dog2.bark())
+# print(dog3.bark())
 
-print(f"{dog1.name}'s running speed: {dog1.run_speed()}")
-print(f"{dog2.name}'s running speed: {dog2.run_speed()}")
-print(f"{dog3.name}'s running speed: {dog3.run_speed()}")
+# print(f"{dog1.name}'s running speed: {dog1.run_speed()}")
+# print(f"{dog2.name}'s running speed: {dog2.run_speed()}")
+# print(f"{dog3.name}'s running speed: {dog3.run_speed()}")
 
-print(dog1.fight(dog2))
-print(dog2.fight(dog3))
-print(dog1.fight(dog3))
+# print(dog1.fight(dog2))
+# print(dog2.fight(dog3))
+# print(dog1.fight(dog3))

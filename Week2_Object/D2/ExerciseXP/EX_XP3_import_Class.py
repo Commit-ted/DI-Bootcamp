@@ -42,3 +42,6 @@ dog1.play(dog2, dog3)
 
 # Try having an untrained dog do a trick
 dog2.do_a_trick()
+# Train Bella
+dog2.train()
+dog2.do_a_trick()
