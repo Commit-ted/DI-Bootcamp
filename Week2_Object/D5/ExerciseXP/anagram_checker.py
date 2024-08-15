@@ -22,9 +22,10 @@ class AnagramChecker:
     # Create an instance of AnagramChecker
 checker = AnagramChecker()
 
-# Check if a word is valid
-print(checker.is_valid_word('meat'))  # True or False
+# # Check if a word is valid
+# print(checker.is_valid_word('meat'))  # True or False
 
-# Get all anagrams of a word
-print(checker.get_anagrams('meat'))  # ['MATE', 'TAME', 'TEAM'] if those are in the word list
+# # Get all anagrams of a word
+# print(checker.get_anagrams('meat'))  # ['MATE', 'TAME', 'TEAM'] if those are in the word list
+# print(checker.get_anagrams('teach'))
 
