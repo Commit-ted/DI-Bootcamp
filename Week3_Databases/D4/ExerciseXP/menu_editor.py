@@ -1,5 +1,5 @@
 from menu_item import MenuItem
-from menu_manager import MenuManager
+from MenuManager import MenuManager
 
 def show_user_menu():
     while True:
