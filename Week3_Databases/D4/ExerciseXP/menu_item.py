@@ -6,7 +6,7 @@ class MenuItem:
         self.price = price
 
     def save(self):
-        conn = psycopg2.connect("dbname=restaurant user=yourusername password=yourpassword")
+        conn = psycopg2.connect("dbname=restaurant user=postgres password=yourpassword")
         cur = conn.cursor()
         cur.execute("INSERT INTO Menu_Items (item_name, item_price) VALUES (%s, %s)", (self.name, self.price))
         conn.commit()
@@ -14,7 +14,7 @@ class MenuItem:
         conn.close()
 
     def delete(self):
-        conn = psycopg2.connect("dbname=restaurant user=yourusername password=yourpassword")
+        conn = psycopg2.connect("dbname=restaurant user=postgres password=yourpassword")
         cur = conn.cursor()
         cur.execute("DELETE FROM Menu_Items WHERE item_name=%s", (self.name,))
         conn.commit()
@@ -22,7 +22,7 @@ class MenuItem:
         conn.close()
 
     def update(self, new_name, new_price):
-        conn = psycopg2.connect("dbname=restaurant user=yourusername password=yourpassword")
+        conn = psycopg2.connect("dbname=restaurant user=postgres password=yourpassword")
         cur = conn.cursor()
         cur.execute("UPDATE Menu_Items SET item_name=%s, item_price=%s WHERE item_name=%s", (new_name, new_price, self.name))
         conn.commit()
