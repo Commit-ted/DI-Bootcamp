@@ -68,3 +68,4 @@ def show_restaurant_menu():
 
 if __name__ == "__main__":
     show_user_menu()
+    print('hi')
