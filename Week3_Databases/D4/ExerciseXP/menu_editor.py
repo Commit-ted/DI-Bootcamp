@@ -1,5 +1,5 @@
 from menu_item import MenuItem
-from MenuManager import MenuManager
+from menu_manager import MenuManager
 
 def show_user_menu():
     while True:
@@ -68,4 +68,3 @@ def show_restaurant_menu():
 
 if __name__ == "__main__":
     show_user_menu()
-    print('hi')
