@@ -1,0 +1,29 @@
+# Below are various data sources. Identify whether each one is an example of structured or unstructured data
+- A company’s financial reports stored in an Excel file. -> Structure
+- Photographs uploaded to a social media platform. -> Unstructure
+- A collection of news articles on a website. -> Unstructure
+- Inventory data in a relational database. -> Structure
+- Recorded interviews from a market research study. -> Unstructure
+
+
+# For each of the following unstructured data sources, propose a method to convert it into structured data. Explain your reasoning
+1 A series of blog posts about travel experiences. -> Text mining and Natural Language Processing (NLP) to extract key themes, sentiments, locations, and topics into a structured database
+2 Audio recordings of customer service calls. -> Speech-to-text conversion followed by sentiment analysis and keyword extraction to create a structured dataset of call topics, duration, sentiment, and outcomes.
+3 Handwritten notes from a brainstorming session. -> Optical Character Recognition (OCR) to digitize handwriting, followed by text parsing to categorize ideas into structured categories like 'new ideas', 'concerns', and 'action items'.
+4 A video tutorial on cooking. -> Transcription of audio to text for a structured recipe format, combined with video annotation to identify key steps and ingredients. Additionally, extract and integrate video performance metrics from social media platforms, such as Click-Through Rate (CTR), Cost Per Click (CPC), view count, average watch time, and audience demographics.
+
+#Exercise 3: Application Scenario
+Transaction records -> Structure
+Analyze sales trends, customer purchasing behavior, and product performance. This can help optimize inventory management, forecast demand, and identify cross-selling or upselling opportunities
+
+Customer feedback comments -> Unstructure
+Perform sentiment analysis to understand customer satisfaction and identify common complaints or praises. This information can guide product improvements, enhance customer service, and tailor marketing strategies
+
+Social media posts about your brand -> Unstructure
+Monitor brand sentiment, track campaign effectiveness, and identify trending topics or customer preferences.
+
+Employee work schedules -> Structure
+Optimize staffing levels based on peak business hours and employee availability, improving operational efficiency and customer service. This can reduce labor costs and improve employee satisfaction by better matching shifts to employee preferences
+
+
+
