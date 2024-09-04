@@ -1,0 +1,4 @@
+1
+Data visualization is vital in data analysis because it transforms raw data into a visual context, making complex information more accessible and understandable. It helps reveal patterns, trends, and outliers that might not be immediately apparent in raw numbers. In essence, data visualization turns numbers into a story, one that can be easily interpreted and acted upon.
+2
+A line graph serves a specific purpose in data visualization. It shows the relationship between two variables, typically how one variable changes over time. By connecting data points with a line, it reveals trends and patterns, providing a clear picture of movement and direction. It's a tool that cuts through the noise, giving the viewer a direct line to understanding change.
