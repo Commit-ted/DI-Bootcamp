@@ -1,0 +1,62 @@
+To push your SQL work to GitHub:
+
+Save Queries into a .sql File
+
+Open your editor or IDE.
+Paste your SQL queries into the file.
+Save the file with a descriptive name and the .sql extension, e.g., actors_queries.sql.
+Initialize a Git Repository (If Not Already Done)
+
+Open your terminal or command prompt.
+
+Navigate to the directory containing your SQL file.
+
+Initialize a Git repository:
+
+bash
+Copy code
+git init
+Add the SQL File to Your Repository
+
+bash
+Copy code
+git add actors_queries.sql
+Commit Your Changes
+
+bash
+Copy code
+git commit -m "Add queries for actors table"
+Push to GitHub
+
+If you haven't set up a remote repository yet, create a new repository on GitHub.
+
+Link your local repository to the GitHub repository:
+
+bash
+Copy code
+git remote add origin https://github.com/your_username/your_repository.git
+Push your commits to GitHub:
+
+bash
+Copy code
+git push -u origin master
+Replace master with your branch name if you're using a different branch.
+
+Note: You might be prompted to enter your GitHub credentials or set up SSH keys for authentication.
+
+Using the SQL File in pgAdmin
+
+Open pgAdmin and Connect to Your Database
+
+Launch pgAdmin.
+Connect to your PostgreSQL server and open the desired database.
+Open the Query Tool
+
+Right-click on your database and select Query Tool.
+Load Your SQL File
+
+In the Query Tool, go to File > Open or click the folder icon.
+Navigate to your .sql file and open it.
+Execute the Queries
+
+Click the Execute button (lightning bolt icon) or press F5 to run the queries.
