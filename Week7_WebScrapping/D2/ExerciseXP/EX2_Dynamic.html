@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Dynamic Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            transition: color 0.3s;
+        }
+        p {
+            font-size: 1.2em;
+            padding: 20px;
+        }
+        ul {
+            padding: 20px;
+            list-style-type: square;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .dynamic-text {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="dynamic-heading">Welcome to My Dynamic Page</h1>
+    </header>
+
+    <p>This page is enhanced with JavaScript, adding dynamic interactions and beautiful styling with CSS.</p>
+
+    <ul>
+        <li>HTML Basics</li>
+        <li>CSS Styling</li>
+        <li>JavaScript Interactivity</li>
+    </ul>
+
+    <!-- Dynamic Button and Text Section -->
+    <div class="dynamic-text">
+        <button id="change-text-btn">Click Me to Change Text</button>
+        <p id="dynamic-paragraph">This text will change when you click the button above.</p>
+    </div>
+
+    <footer>
+        <p>Designed by Manuel</p>
+    </footer>
+
+    <script>
+        // Change the heading text on page load
+        document.getElementById("dynamic-heading").innerText = "Welcome to the Enhanced Dynamic Page!";
+
+        // Add dynamic interaction with the button
+        document.getElementById("change-text-btn").addEventListener("click", function() {
+            let dynamicParagraph = document.getElementById("dynamic-paragraph");
+            dynamicParagraph.innerText = "You've just changed this text dynamically!";
+            dynamicParagraph.style.color = "#FF4500"; // Change text color dynamically
+        });
+
+        // Change heading color when hovered over
+        document.getElementById("dynamic-heading").addEventListener("mouseover", function() {
+            this.style.color = "#FF4500";
+        });
+        document.getElementById("dynamic-heading").addEventListener("mouseout", function() {
+            this.style.color = "white";
+        });
+    </script>
+</body>
+</html>
