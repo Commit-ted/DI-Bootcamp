@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+/usr/local/lib/python3.10/dist-packages/selenium/webdriver/common/driver_finder.py in _binary_paths(self)
+     63                 if not Path(path).is_file():
+---> 64                     raise ValueError(f"The path is not a valid file: {path}")
+     65                 self._paths["driver_path"] = path
+
+ValueError: The path is not a valid file: /opt/homebrew/bin/chromedriver
+
+The above exception was the direct cause of the following exception:
+
+NoSuchDriverException                     Traceback (most recent call last)
+4 frames
+/usr/local/lib/python3.10/dist-packages/selenium/webdriver/common/driver_finder.py in _binary_paths(self)
+     76         except Exception as err:
+     77             msg = f"Unable to obtain driver for {browser}"
+---> 78             raise NoSuchDriverException(msg) from err
+     79         return self._paths
+     80 
+
+NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
